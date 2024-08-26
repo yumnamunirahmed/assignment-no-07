@@ -1,4 +1,4 @@
-.main{
+.body{
     background-image: url(image.jpg);
     height: 1000px;
     width: 100%;
@@ -33,6 +33,9 @@ ul{
     background-position: center;
    }
    @media only screen and (max-width: 1024px){
+       .ul{
+           list-style:none;
+           }
   .button{
     height: 40px;
     width: 80px;
